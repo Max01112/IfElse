@@ -59,11 +59,27 @@ public class Main {
 
         System.out.println(" ");
         System.out.println("Задача 6");
-        int seat = 5;
+        int seat = 77;
         if(seat >= 60 && seat <=102){
-            System.out.println("Сидячих мест нет, вагон всё ещё может вместить пассажиров");
-        }else{
-            System.out.println("На улице холодно, нужно надеть шапку");
+            System.out.println("Сидячих мест нет, вагон всё ещё может вместить пассажиров.");
+        }else if(seat < 60){
+            System.out.println("Есть сидячие места!");
+        }else if(seat > 102){
+            System.out.println("Мест не осталось..");
         }
+
+        System.out.println(" ");
+        System.out.println("Задача 7");
+        int one = 4;
+        int two = 2;
+        int three = 111;
+        if(one > two && one > three){
+            System.out.println(one);
+        }else if(two > one && two > three){
+            System.out.println(two);
+        }else {
+            System.out.println(three);
+        }
+
     }
 }
