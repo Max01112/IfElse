@@ -48,14 +48,12 @@ public class Main {
 
         System.out.println(" ");
         System.out.println("Задача 5");
-        int age3 = 99;
+        int age3 = 16;
         if (age3 < 5) {
             System.out.println("Если возраст человека равен " + age3 + " то ему нельзя кататься на аттракционе");
-        }
-        if (age3 >= 5 && age3 <= 14) {
+        } else if (age3 >= 5 && age3 <= 14) {
             System.out.println("Если возраст человека равен " + age3 + " то ему можно кататься на аттракционе в сопровождении");
-        }
-        if (age3 >= 15) {
+        } else {
             System.out.println("Если возраст человека равен " + age3 + " то ему кататься на аттракционе без сопровождения взрослого");
         }
 
